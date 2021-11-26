@@ -33,7 +33,6 @@ public class SyncProducer {
 
             TimeUnit.SECONDS.sleep(1);
         }
-
         producer.shutdown();
     }
 }
